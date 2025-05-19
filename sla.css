@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    margin: 0;
+    text-align: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+input {
+    padding: 20px;
+    width: 200px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-radius: 15px;
+}
+button {
+    padding: 15px 30px;
+    font-size: 18px;
+    width: 220px;
+    cursor: pointer;
+    background-color: #f4a261;
+    border: none;
+    border-radius: 8px;
+}
+button:hover {
+    background-color: #e76f51;
+    color: white;
+}
+.dica {
+    max-width: 300px;
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+.imagemlado {
+    display: flex;
+    gap: 20px; 
+    justify-content: center;
+    flex-wrap: wrap; 
+}
+
+.imagemlado img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.travis {
+    max-width: 300px;      
+    width: 100%;           
+    height: auto;          
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+footer {
+    margin-top: auto;
+    padding: 20px;
+    color: #555;
+    font-size: 14px;
+    font-style: italic;
+    background-color: #f0e6d2;
+}
+.botaov { 
+    margin-top: 200px; 
+    padding: 12px 25px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #f4a261;
+    color: white;
+    border: none;
+    border-radius: 8px;
+}
+
+.botaov:hover {
+    background-color: #e76f51;
+}
